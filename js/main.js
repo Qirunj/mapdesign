@@ -4,7 +4,7 @@ let map = new mapboxgl.Map({
     container: 'map', // container ID
     style: 'mapbox://styles/qirunj/cldqzc0v5004d01r0e866ytuq', // style URL
     center: [-122.31833875069155,47.62139336325135], // starting position [lng, lat]
-    zoom: 11, // starting zoom
+    zoom: 10, // starting zoom
 });
 
 map.on('load', () => { //simplifying the function statement: arrow with brackets to define a function
